@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family:Inter;
+  background-color:#23252C;
+}
+.app{
+  background-color:#1A1B21;
+  width:25%;
+  margin:0 5%;
+  height:550px;
+  border-radius:10px;
+}
+.header{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.header h1{
+  color:white; 
+  margin-top:10px;   
+  margin-bottom:0px;
+}
+.header h2{
+  color: #F3BF99;
+  font-size:14px;
+  margin-top:0px;
+  margin-bottom:6px;
+}
+.header--button{
+  border-radius:40px;
+  width: 30%;
+  display:flex;
+  justify-content:center;
+  height:30px;
+  margin:5px;
+  text-decoration: none;
+}
+.header--buttons{
+  display:flex;    
+  width:100%;
+  justify-content: center;
+}
+.header--button-text{
+  padding-top:5px;
+  padding-left:3px;
+}
+.header--linkedin{
+  background-color:#5093E2;
+  color:white;
+}
+
+.header--email{
+  background-color:white;
+}
+.header--github{
+  background-color:white;
+  padding-bottom:10px;
+}
+.header img{
+  max-width:150px;   
+}
+
+.header--button img{
+  max-height:25px;
+  height:auto;
+  padding-top:5px;
+}
+
+.body{
+  display:flex;
+  flex-direction:column;
+  width:75%;
+  margin:0 15%;
+  color:#DCDCDC;
+}
+.body h4{
+  margin-bottom:00px;
+}
+.body p{
+  font-size:14px;
+  margin-top:5px;
+}
+.footer{
+  background-color:#161619;
+  margin:0px;
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+/* .footer--button{
+  background-color:#918E9B;
+  border-radius:10px;
+  width:40px;
+  height:35px;
+  display:flex;
+  justify-content:center;
+}
+.footer--button img{
+  max-width:30px;
+  width:auto;
+} */
