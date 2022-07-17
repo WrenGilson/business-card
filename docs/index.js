@@ -1,5 +1,9 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
+define(function(require, exports, module) {
+  //Put traditional CommonJS module content here
+});
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
